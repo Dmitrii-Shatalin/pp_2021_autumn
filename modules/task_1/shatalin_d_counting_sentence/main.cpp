@@ -15,10 +15,10 @@ TEST(Parallel_NumOfSentences_MPI, TEST_LENGHT_14) {
     }
 }
 
-TEST(Parallel_NumOfSentences_MPI, TEST_LENGHT_22) {
+TEST(Parallel_NumOfSentences_MPI, TEST_LENGHT_23) {
     int rank;
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-    int lenght = 22;
+    int lenght = 23;
     std::string str;
     str = random_str(lenght);
     int pnum = num_of_sentences_par(str);

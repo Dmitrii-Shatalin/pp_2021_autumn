@@ -16,7 +16,7 @@ int num_of_sentences_seq(std::string str) {
     const int str_size = str.length();
     int count = 0;
     for (int i = 0; i < str_size; i++) {
-        if (str[i] == '.' || str[i] == '!' || str[i] == '?') {
+        if (str[i] == '.' || str[i] == '?' || str[i] == '!') {
             count++;
         }
     }
